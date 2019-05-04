@@ -13,18 +13,18 @@ This  project should be working as expected with the following minimal version o
 | Dependency |   Version   |
 | ---------- | :---------: |
 | node       | >= v10.15.0 |
-| npm        |  >= v6.8.0  |
+| npm        |  >= v6.4.1  |
 | nodemailer |  >= v6.1.1  |
 | twit       | >= v2.2.11  |
 
 ### Getting started
 
 ```bash
-# cloning git repository into `my-webpack-starter` folder
+# cloning git repository into `my-twitter-unfollowers-bot` folder
 git clone https://github.com/Abdessalam98/twitter-unfollowers-bot my-twitter-unfollowers-bot
 
 # install project dependencies
-cd my-webpack-starter && my-twitter-unfollowers-bot
+cd my-twitter-unfollowers-bot && my-twitter-unfollowers-bot
 
 # run the project on your server
 npm run start
