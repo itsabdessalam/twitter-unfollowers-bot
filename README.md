@@ -13,7 +13,7 @@ This  project should be working as expected with the following minimal version o
 | Dependency |   Version   |
 | ---------- | :---------: |
 | node       | >= v10.15.0 |
-| npm        |  >= v6.8.0  |
+| npm        |  >= v6.4.1  |
 | nodemailer |  >= v6.1.1  |
 | twit       | >= v2.2.11  |
 
