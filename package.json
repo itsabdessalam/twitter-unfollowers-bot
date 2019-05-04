@@ -4,25 +4,15 @@
 	"description": "A Node.js bot that sends emails to notifies you about twitter unfollowers",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "netlify-lambda build app",
-		"start": "NODE_ENV=dev node server.js"
+		"start": "node ./app/index"
 	},
 	"dependencies": {
-		"body-parser": "^1.18.3",
-		"cors": "^2.8.5",
-		"debug": "~2.6.9",
 		"dotenv": "^6.2.0",
-		"express": "~4.16.0",
-		"helmet": "^3.15.1",
-		"http-errors": "~1.6.2",
-		"mongodb": "^3.1.13",
-		"mongoose": "^5.4.11",
-		"morgan": "~1.9.0",
-		"netlify-lambda": "^1.4.5",
+		"https": "^1.0.0",
 		"nodemailer": "^6.1.1",
+		"nodemailer-sendgrid-transport": "^0.2.0",
 		"nodemon": "^1.18.10",
-		"serverless-http": "^2.0.1"
+		"twit": "^2.2.11"
 	},
 	"devDependencies": {
 		"eslint": "^5.15.3",
@@ -39,8 +29,13 @@
 		"type": "git",
 		"url": "git+https://github.com/Abdessalam98/twitter-unfollowers-bot.git"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"twitter",
+		"bot",
+		"email",
+		"notification"
+	],
+	"author": "Abdessalam BENHARIRA (https://github.com/Abdessalam98https://github.com/Abdessalam98)",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/Abdessalam98/twitter-unfollowers-bot/issues"
