@@ -1,0 +1,44 @@
+{
+	"name": "twitter-unfollowers-bot",
+	"version": "1.0.0",
+	"description": "A Node.js bot that sends emails to notifies you about twitter unfollowers",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./app/index"
+	},
+	"dependencies": {
+		"dotenv": "^6.2.0",
+		"https": "^1.0.0",
+		"nodemailer": "^6.1.1",
+		"nodemailer-sendgrid-transport": "^0.2.0",
+		"nodemon": "^1.18.10",
+		"twit": "^2.2.11"
+	},
+	"devDependencies": {
+		"eslint": "^5.15.3",
+		"eslint-config-prettier": "^4.1.0",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-node": "^8.0.1",
+		"eslint-plugin-prettier": "^3.0.1",
+		"eslint-plugin-promise": "^4.0.1",
+		"eslint-plugin-standard": "^4.0.0",
+		"prettier": "^1.16.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Abdessalam98/twitter-unfollowers-bot.git"
+	},
+	"keywords": [
+		"twitter",
+		"bot",
+		"email",
+		"notification"
+	],
+	"author": "Abdessalam BENHARIRA (https://github.com/Abdessalam98https://github.com/Abdessalam98)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Abdessalam98/twitter-unfollowers-bot/issues"
+	},
+	"homepage": "https://github.com/Abdessalam98/twitter-unfollowers-bot#readme"
+}
