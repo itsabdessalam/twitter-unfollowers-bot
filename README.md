@@ -20,11 +20,11 @@ This  project should be working as expected with the following minimal version o
 ### Getting started
 
 ```bash
-# cloning git repository into `my-webpack-starter` folder
+# cloning git repository into `my-twitter-unfollowers-bot` folder
 git clone https://github.com/Abdessalam98/twitter-unfollowers-bot my-twitter-unfollowers-bot
 
 # install project dependencies
-cd my-webpack-starter && my-twitter-unfollowers-bot
+cd my-twitter-unfollowers-bot && my-twitter-unfollowers-bot
 
 # run the project on your server
 npm run start
