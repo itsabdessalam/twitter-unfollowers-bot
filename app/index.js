@@ -1,15 +1,15 @@
 const config = require("./config");
 const utils = require("./utils");
-const nodemailer = require("nodemailer");
 const http = require("http");
 const Twitter = require("twit");
+const nodemailer = require("nodemailer");
 const sgTransport = require("nodemailer-sendgrid-transport");
 const mailConfig =
 	config.mailer.sg_mail_config !== undefined
 		? sgTransport(config.mailer.sg_mail_config)
 		: config.mailer.default_mail_config;
 
-// On lance le serveur
+// On crée le serveur
 const server = http.createServer((req, res) => {
 	res.writeHead(200, { "Content-Type": "text/plain" });
 	res.write("Hello from Node.js 🤖 twitter bot! ");
