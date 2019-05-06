@@ -4,7 +4,7 @@
 
 ## Installation
 
-You need to create a [Twitter app]([docs/CONTRIBUTING.md](https://developer.twitter.com/en/apps)) to use the API.
+You need to create a [Twitter app](https://developer.twitter.com/en/apps) to use the API.
 
 ### Requirements
 
